@@ -1,5 +1,7 @@
 # Ex. No:1b 			Study of Client Server Chat Applications
-
+## NAME: YUGABHARATHI M
+## REGISTER NO: 212224230314
+## DATE: 
 ## Aim: 
 To perform a study on Client Server Chat Applications
 ## Introduction:
